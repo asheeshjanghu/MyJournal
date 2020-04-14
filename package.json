@@ -4,6 +4,7 @@
   "description": "Nodejs app for Journal Project",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/asheeshjanghu/MyJournal/issues"
   },
-  "homepage": "https://github.com/asheeshjanghu/MyJournal#readme"
+  "homepage": "https://github.com/asheeshjanghu/MyJournal#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jsonschema": "^1.2.6",
+    "restify": "^8.5.1"
+  }
 }

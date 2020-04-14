@@ -1,0 +1,5 @@
+{
+    "app_name":"JournalTest",
+    "port": 8080,
+    "base_url": "http://localhost"
+}
